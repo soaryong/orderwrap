@@ -9,18 +9,17 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useMyStore from "@/hooks/useMyStore";
 import useStore from "@/hooks/useStore";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { useAccount, useBalance } from "wagmi";
 
 export default function Home() {
-  const params = useSearchParams();
-  const storeId = params.get("storeId");
+  const params = useParams();
+  const { id } = params as { id: string };
   const { address } = useAccount();
-  const { data: store } = useStore(storeId ?? undefined);
+  const { data: store } = useStore(id);
   const [count, setCount] = useState("1");
   const [tip, setTip] = useState("10");
   const { data: balance } = useBalance({

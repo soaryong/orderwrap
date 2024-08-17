@@ -23,8 +23,9 @@ export default function Home() {
             <h1 className="scroll-m-20 text-xl mb-3 font-extrabold tracking-tight lg:text-3xl text-white">
               My Store QR Code
             </h1>
+            <small>orderwrap.shop/store/{store.id}</small>
             <Canvas
-              text={`https://orderwrap.web.app/store?storeId=${store.id}`}
+              text={`https://orderwrap.shop/store/${store.id}`}
               options={{
                 type: "image/jpeg",
                 quality: 0.3,

@@ -10,7 +10,7 @@ export const projectId = "8d5217388f123bbeffad04b2c2648b13";
 const metadata = {
   name: "OrderWrap",
   description: "AppKit Example",
-  url: "https://orderwrap.web.app",
+  url: "https://orderwrap.shop",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
 
