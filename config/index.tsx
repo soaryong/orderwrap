@@ -5,14 +5,12 @@ import { defaultWagmiConfig } from "@web3modal/wagmi/react/config";
 import { cookieStorage, createStorage } from "wagmi";
 import { mainnet, sepolia } from "wagmi/chains";
 
-// Your WalletConnect Cloud project ID
 export const projectId = "8d5217388f123bbeffad04b2c2648b13";
 
-// Create a metadata object
 const metadata = {
-  name: "orderwrap",
+  name: "OrderWrap",
   description: "AppKit Example",
-  url: "https://web3modal.com", // origin must match your domain & subdomain
+  url: "https://orderwrap.web.app",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
 
@@ -26,4 +24,10 @@ export const config = defaultWagmiConfig({
   storage: createStorage({
     storage: cookieStorage,
   }),
+  auth: {
+    email: false, // default to true
+    socials: ["google", "x", "facebook"],
+    showWallets: false, // default to true
+    walletFeatures: true, // default to true
+  },
 });
