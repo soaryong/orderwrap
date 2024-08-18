@@ -6,8 +6,8 @@
 
 OrderWrap offers simplicity and convenience for both users and store managers.
 
-Demo: [OrderWrap.shop](https://orderwrap.shop/)
-PitchDeck: [OrderWrap Deck](https://drive.google.com/file/d/16xNmFIND2Ku-eDtZETTB88lQ1YSaj4Yj/view?usp=sharing)
+- Demo: [OrderWrap.shop](https://orderwrap.shop/)
+- PitchDeck: [OrderWrap Deck](https://drive.google.com/file/d/16xNmFIND2Ku-eDtZETTB88lQ1YSaj4Yj/view?usp=sharing)
 
 # 🤔 Background
 Orderwrap was developed to streamline and modernize the ordering and payment process, particularly in overseas settings where traditional methods can be cumbersome. In many countries, ordering involves slow-paced interactions between customers and waitstaff, with additional hassles like separate cash tips. Orderwrap addresses these challenges by enabling customers to scan a QR code at their table, browse the menu at their own pace, and place orders without unnecessary interactions.
