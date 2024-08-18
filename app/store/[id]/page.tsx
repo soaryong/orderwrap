@@ -73,7 +73,7 @@ export default function Home() {
         await pb.collection("order").create({
           store_id: store?.id,
           count,
-          price: price(),
+          price: price().toString(),
           customer: address,
           hash,
         });
@@ -93,7 +93,7 @@ export default function Home() {
     const cnt = +count;
     const percent = +tip;
 
-    const amount = (price * cnt + (price * cnt * percent) / 100).toString();
+    const amount = price * cnt + (price * cnt * percent) / 100;
 
     return amount;
   };
@@ -106,7 +106,7 @@ export default function Home() {
     writeContract({
       abi: minTokenAbi,
       functionName: "transfer",
-      args: [store.owner, price()],
+      args: [store.owner, price().toString()],
       address: "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
     });
   }, [writeContract]);
