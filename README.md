@@ -27,13 +27,13 @@ Everything from start to finish is designed to be easy, simple, and convenient, 
   - Easy Login > Create Store > Manage Menu > Monitor Orders and Payments
 
 # 🔑 Key Features
-1) Social login, Swap and On-Ramp using Appkit
+**Social login, Swap and On-Ramp using Appkit**
   - Using WalletConnect's Appkit, we provide easy and convenient social logins for various Google, Twitter, Facebook, etc. and allow anyone to easily swap cryptocurrencies on their mobile devices and swap or purchase cash and cryptocurrencies.
 
-2) Coinbase Payment
+**Coinbase Payment**
   - Coinbase Pay allows users to easily purchase cryptocurrency with cash and pay for food with cryptocurrency.
 
-3) All-in-one service
+**All-in-one service**
   - Store managers can create their own stores, create menus, and easily manage various orders and money.
   - Everything is done via mobile, and payments can also be easily received and confirmed by admin.
 
