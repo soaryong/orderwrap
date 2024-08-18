@@ -6,7 +6,8 @@
 
 OrderWrap offers simplicity and convenience for both users and store managers.
 
-Demo: [OrderWrap.shop](https://orderwrap.shop/)
+- Demo: [OrderWrap.shop](https://orderwrap.shop/)
+- PitchDeck: [OrderWrap Deck](https://drive.google.com/file/d/16xNmFIND2Ku-eDtZETTB88lQ1YSaj4Yj/view?usp=sharing)
 
 # 🤔 Background
 Orderwrap was developed to streamline and modernize the ordering and payment process, particularly in overseas settings where traditional methods can be cumbersome. In many countries, ordering involves slow-paced interactions between customers and waitstaff, with additional hassles like separate cash tips. Orderwrap addresses these challenges by enabling customers to scan a QR code at their table, browse the menu at their own pace, and place orders without unnecessary interactions.
@@ -20,11 +21,15 @@ In essence, Orderwrap enhances convenience and security for both customers and r
 # ✨ Overview
 Everything from start to finish is designed to be easy, simple, and convenient, making it the ideal order and payment service.
 <br></br>
-> **Simple and Easy Ordering**
-  - Scan QR Code > Select Menu > Easy Login > Payment (Including Tips)
-
 > **Simple and Easy Store Management**
-  - Easy Login > Create Store > Manage Menu > Monitor Orders and Payments
+  - Create Store & Manage Menu > Monitor Orders and Payments
+<br></br>
+![OrderWrap-Deck_04](https://github.com/user-attachments/assets/713cf02a-83f8-4b84-b60f-358003b9cd50)
+
+> **Simple and Easy Ordering**
+  - Scan QR Code > Select Menu > Select Payments > Tip & Pay
+<br></br>
+![OrderWrap-Deck_05](https://github.com/user-attachments/assets/2b6616be-25c4-43e8-862b-5c576157a60c)
 
 # 🔑 Key Features
 **Social login, Swap and On-Ramp using Appkit**
