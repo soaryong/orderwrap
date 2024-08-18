@@ -21,21 +21,21 @@ In essence, Orderwrap enhances convenience and security for both customers and r
 Everything from start to finish is designed to be easy, simple, and convenient, making it the ideal order and payment service.
 <br></br>
 > **Simple and Easy Ordering**
-- Scan QR Code > Select Menu > Easy Login > Payment (Including Tips)
+  - Scan QR Code > Select Menu > Easy Login > Payment (Including Tips)
 
 > **Simple and Easy Store Management**
-- Easy Login > Create Store > Manage Menu > Monitor Orders and Payments
+  - Easy Login > Create Store > Manage Menu > Monitor Orders and Payments
 
 # 🔑 Key Features
 1) Social login, Swap and On-Ramp using Appkit
-- Using WalletConnect's Appkit, we provide easy and convenient social logins for various Google, Twitter, Facebook, etc. and allow anyone to easily swap cryptocurrencies on their mobile devices and swap or purchase cash and cryptocurrencies.
+  - Using WalletConnect's Appkit, we provide easy and convenient social logins for various Google, Twitter, Facebook, etc. and allow anyone to easily swap cryptocurrencies on their mobile devices and swap or purchase cash and cryptocurrencies.
 
 2) Coinbase Payment
-- Coinbase Pay allows users to easily purchase cryptocurrency with cash and pay for food with cryptocurrency.
+  - Coinbase Pay allows users to easily purchase cryptocurrency with cash and pay for food with cryptocurrency.
 
 3) All-in-one service
-- Store managers can create their own stores, create menus, and easily manage various orders and money.
-- Everything is done via mobile, and payments can also be easily received and confirmed by admin.
+  - Store managers can create their own stores, create menus, and easily manage various orders and money.
+  - Everything is done via mobile, and payments can also be easily received and confirmed by admin.
 
 # ⚙️ Process
 ![image](https://github.com/user-attachments/assets/9ac79072-1653-45f4-80c2-4c7946df228b)
