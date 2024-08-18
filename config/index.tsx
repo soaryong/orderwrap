@@ -3,7 +3,7 @@
 import { defaultWagmiConfig } from "@web3modal/wagmi/react/config";
 
 import { cookieStorage, createStorage } from "wagmi";
-import { mainnet, sepolia } from "wagmi/chains";
+import { sepolia } from "wagmi/chains";
 
 export const projectId = "8d5217388f123bbeffad04b2c2648b13";
 

@@ -47,7 +47,7 @@ export default function Home() {
 
   const params = useParams();
   const { id } = params as { id: string };
-  const { address } = useAccount();
+  const { address, isConnected } = useAccount();
   const { data: store } = useStore(id);
   const [count, setCount] = useState("1");
   const [tip, setTip] = useState("10");
@@ -56,16 +56,6 @@ export default function Home() {
     token: "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
     address: address,
   });
-
-  const test = async () => {
-    await pb.collection("order").create({
-      store_id: store?.id,
-      count,
-      price: price(),
-      customer: address,
-      hash: "",
-    });
-  };
 
   const { writeContract, isPending: isLoading } = useWriteContract({
     mutation: {
@@ -79,7 +69,8 @@ export default function Home() {
         });
         alert("Order Success");
       },
-      onError: () => {
+      onError: (error) => {
+        console.log(error);
         alert("Order Failed");
       },
     },
@@ -99,7 +90,7 @@ export default function Home() {
   };
 
   const onSendTransaction = useCallback(() => {
-    if (!store) {
+    if (!store || !isConnected) {
       return;
     }
 
@@ -109,7 +100,7 @@ export default function Home() {
       args: [store.owner, price().toString()],
       address: "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
     });
-  }, [writeContract]);
+  }, [writeContract, address, store, count, tip]);
 
   return (
     <main className="flex min-h-screen flex-col items-center p-10 bg-blue-800">
