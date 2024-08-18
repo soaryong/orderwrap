@@ -71,7 +71,6 @@ export default function Home() {
       },
       onError: (error) => {
         console.log(error);
-        alert("Order Failed");
       },
     },
   });
