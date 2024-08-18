@@ -97,7 +97,7 @@ export default function Home() {
     writeContract({
       abi: minTokenAbi,
       functionName: "transfer",
-      args: [store.owner, price().toString()],
+      args: [store.owner, (price() * 1000000).toString()],
       address: "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
     });
   }, [writeContract, address, store, count, tip]);
