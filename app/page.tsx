@@ -40,6 +40,13 @@ export default function Home() {
               }}
             />
           </div>
+          <Button
+            onClick={() => router.push("/order")}
+            size={"lg"}
+            className="mt-10"
+          >
+            Orders
+          </Button>
           <h1 className="mt-10 text-lg font-bold">Store</h1>
           <h1>{store.name}</h1>
           <h1>{store.description}</h1>

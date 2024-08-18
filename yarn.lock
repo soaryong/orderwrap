@@ -671,42 +671,6 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@prisma/debug@5.18.0":
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-5.18.0.tgz#527799e044d2903a35945e61ac2d8916e4b61ead"
-  integrity sha512-f+ZvpTLidSo3LMJxQPVgAxdAjzv5OpzAo/eF8qZqbwvgi2F5cTOI9XCpdRzJYA0iGfajjwjOKKrVq64vkxEfUw==
-
-"@prisma/engines-version@5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169":
-  version "5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169.tgz#203426ebf4ec4e1acce7da4a59ec8f0df92b29e7"
-  integrity sha512-a/+LpJj8vYU3nmtkg+N3X51ddbt35yYrRe8wqHTJtYQt7l1f8kjIBcCs6sHJvodW/EK5XGvboOiwm47fmNrbgg==
-
-"@prisma/engines@5.18.0":
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.18.0.tgz#26ea46e26498be622407cf95663d7fb4c39c895b"
-  integrity sha512-ofmpGLeJ2q2P0wa/XaEgTnX/IsLnvSp/gZts0zjgLNdBhfuj2lowOOPmDcfKljLQUXMvAek3lw5T01kHmCG8rg==
-  dependencies:
-    "@prisma/debug" "5.18.0"
-    "@prisma/engines-version" "5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169"
-    "@prisma/fetch-engine" "5.18.0"
-    "@prisma/get-platform" "5.18.0"
-
-"@prisma/fetch-engine@5.18.0":
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/@prisma/fetch-engine/-/fetch-engine-5.18.0.tgz#5b343e2b36b27e2713901ddd032ddd6932b3d55f"
-  integrity sha512-I/3u0x2n31rGaAuBRx2YK4eB7R/1zCuayo2DGwSpGyrJWsZesrV7QVw7ND0/Suxeo/vLkJ5OwuBqHoCxvTHpOg==
-  dependencies:
-    "@prisma/debug" "5.18.0"
-    "@prisma/engines-version" "5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169"
-    "@prisma/get-platform" "5.18.0"
-
-"@prisma/get-platform@5.18.0":
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/@prisma/get-platform/-/get-platform-5.18.0.tgz#0dc4c82fe9a4971f4519a57cb2dd69d8e0df4b71"
-  integrity sha512-Tk+m7+uhqcKDgnMnFN0lRiH7Ewea0OEsZZs9pqXa7i3+7svS3FSCqDBCaM9x5fmhhkufiG0BtunJVDka+46DlA==
-  dependencies:
-    "@prisma/debug" "5.18.0"
-
 "@radix-ui/number@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@radix-ui/number/-/number-1.1.0.tgz#1e95610461a09cdf8bb05c152e76ca1278d5da46"
@@ -3021,6 +2985,13 @@ extension-port-stream@^3.0.0:
     readable-stream "^3.6.2 || ^4.4.2"
     webextension-polyfill ">=0.10.0 <1.0"
 
+ezlog@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/ezlog/-/ezlog-0.0.14.tgz#76768d4129c073987ba09c82c95afb0f26b0bcac"
+  integrity sha512-xDB+fvU58pZKwawgDGaI/czmVSTHpAK/QStHQfHpF+QfK5MItI1eQ6uVTAirpdUaBmDbf6ZbanZ5QGz6lGSY+A==
+  dependencies:
+    opensoars_cls "0.0.10"
+
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -4010,6 +3981,14 @@ lucide-react@^0.428.0:
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.428.0.tgz#dfd96d682c74f78c2961040036d8c1265ccce039"
   integrity sha512-rGrzslfEcgqwh+TLBC5qJ8wvVIXhLvAIXVFKNHndYyb1utSxxn9rXOC+1CNJLi6yNOooyPqIs6+3YCp6uSiEvg==
 
+ma@^5.18.0:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/ma/-/ma-0.0.9.tgz#72db5e804d323e69252d0ecc314a8ea6ca1db72b"
+  integrity sha512-bVpdJG776jbubVCFvpeVXLoiHr5yUTONt2C2FtDBDSsdl5ws3gwJU35SsJWMhxaPq48LNITCbOymwkZH8Iu0RA==
+  dependencies:
+    ezlog "0.0.14"
+    opensoars_cls "0.0.10"
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -4372,6 +4351,11 @@ open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
+opensoars_cls@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/opensoars_cls/-/opensoars_cls-0.0.10.tgz#06e6e2aabc606084cbeac0ebd45706c44e8e886e"
+  integrity sha512-H+G7H/bfYHci4Ep+cFLFr18nYYFJ01+eFCiGayVgarBDvxqKEi0tq80EAE/s6r9+jryENHG2qp6x7mt/mWUvgw==
+
 optionator@^0.9.3:
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/optionator/-/optionator-0.9.4.tgz#7ea1c1a5d91d764fb282139c88fe11e182a3a734"
@@ -4632,13 +4616,6 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
-
-prisma@^5.18.0:
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.18.0.tgz#5ef69c802a075b7596231ea57003496873610b9e"
-  integrity sha512-+TrSIxZsh64OPOmaSgVPH7ALL9dfU0jceYaMJXsNrTkFHO7/3RANi5K2ZiPB1De9+KDxCWn7jvRq8y8pvk+o9g==
-  dependencies:
-    "@prisma/engines" "5.18.0"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"

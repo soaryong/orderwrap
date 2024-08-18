@@ -9,13 +9,13 @@ export const projectId = "8d5217388f123bbeffad04b2c2648b13";
 
 const metadata = {
   name: "OrderWrap",
-  description: "AppKit Example",
+  description: "OrderWrap",
   url: "https://orderwrap.shop",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
 
 // Create wagmiConfig
-const chains = [mainnet, sepolia] as const;
+const chains = [sepolia] as const;
 export const config = defaultWagmiConfig({
   chains,
   projectId,
@@ -25,9 +25,9 @@ export const config = defaultWagmiConfig({
     storage: cookieStorage,
   }),
   auth: {
-    email: false, // default to true
+    email: false,
     socials: ["google", "x", "facebook"],
-    showWallets: false, // default to true
-    walletFeatures: true, // default to true
+    showWallets: false,
+    walletFeatures: true,
   },
 });
